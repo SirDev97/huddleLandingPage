@@ -1,0 +1,86 @@
+@media only screen and (min-width: 768px) {
+  .cards {
+    .card-item {
+      flex-direction: row;
+      padding: 50px 100px;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      .card-info {
+        margin-right: 50px;
+        h3 {
+          font-size: 1.7rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+        .card-info {
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+  .cta-card {
+    .card {
+      padding: 50px;
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 50px;
+      }
+      a {
+        display: inline-block;
+        padding: 20px 60px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .footer {
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      .footer-1,
+      .footer-2,
+      .footer-3,
+      .footer-4 {
+        flex: 1;
+        margin-left: 50px;
+      }
+      .footer-1 {
+        flex: 2.5;
+        margin: 0;
+      }
+      .footer-2,
+      .footer-3,
+      .footer-4 {
+        margin-top: 70px;
+      }
+    }
+    .footer-copyright {
+      text-align: right;
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .header {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    .hero {
+      flex-direction: row;
+      text-align: left;
+      .hero-img {
+        flex: 3;
+      }
+      .hero-info {
+        flex: 2;
+        margin-right: 50px;
+        h1 {
+          font-size: 2.2rem;
+        }
+      }
+    }
+  }
+}
