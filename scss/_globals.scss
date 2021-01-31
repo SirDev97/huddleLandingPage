@@ -22,3 +22,24 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.cta {
+  padding: 10px 45px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: $pink;
+  color: #fff;
+  box-shadow: -2px 2px 20px 0px #0000001f;
+}
